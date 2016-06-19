@@ -1,6 +1,6 @@
 # vesselNN_dataset
 
-An open-source volumetric brain vasculature dataset obtained with two-photon microscopy at [Focused Ultrasound Lab](http://sunnybrook.ca/research/content/?page=sri-groups-fus), at [Sunnybrook Research Institute](http://sunnybrook.ca/research/) (affiliated with [University of Toronto]() by Dr. Alison Burgess, Charissa Poon and Marc Santos.
+An open-source volumetric brain vasculature dataset obtained with two-photon microscopy at [Focused Ultrasound Lab](http://sunnybrook.ca/research/content/?page=sri-groups-fus), at [Sunnybrook Research Institute](http://sunnybrook.ca/research/) (affiliated with [University of Toronto](https://www.utoronto.ca/) by Dr. Alison Burgess, Charissa Poon and Marc Santos.
 
 The dataset contains a total of 12 volumetric stacks consisting images of mouse brain vasculature and tumor vasculature.
 
@@ -13,4 +13,17 @@ The structure of the dataset is following:
 ## Future modifications
 
 * At the moment there is only the denoised stacks (with [BM4D](http://www.cs.tut.fi/~foi/GCF-BM3D/) which will be accompanied by the raw Poisson noise corrupted stacks straight from the Olympus FV1000MPE multiphoton microscopy system.
-* At the moment in the [main repository (vesselNN)](), there are no implementations of the dataset for commonly used frameworks such as TensorFlow, Theano and Caffe which we plan to add making further development easier.
+* At the moment in the main repository [(vesselNN)](https://github.com/petteriTeikari/vesselNN), there are no implementations of the dataset for commonly used frameworks such as TensorFlow, Theano and Caffe which we plan to add making further development easier.
+
+## Reference
+
+* Teikari, P., Santos, M., Poon, C. and Hynynen, K. (2016) Deep Learning Convolutional Networks for Multiphoton Microscopy Vasculature Segmentation. [arXiv:1606.02382](http://arxiv.org/abs/1606.02382).
+
+```latex
+@article{teikari2016deep,
+  title={Deep Learning Convolutional Networks for Multiphoton Microscopy Vasculature Segmentation},
+  author={Teikari, Petteri and Santos, Marc and Poon, Charissa and Hynynen, Kullervo},
+  journal={arXiv preprint arXiv:1606.02382},
+  year={2016}
+}
+```
