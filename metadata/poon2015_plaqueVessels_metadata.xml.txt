@@ -1,0 +1,111 @@
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+<Instrument ID="Instrument:0">
+<Laser ID="LightSource:0:0" LaserMedium="Other" Type="Other" Wavelength="900.0" WavelengthUnit="nm"/>
+<Detector Gain="1000.0" ID="Detector:0:0" Type="PMT" Voltage="700.0" VoltageUnit="V"/>
+<Objective Correction="Other" ID="Objective:0:0" Immersion="Other" LensNA="0.3" Model="UMPLFL     10X W  NA:0.30" NominalMagnification="10.0" WorkingDistance="9999.0" WorkingDistanceUnit="µm"/>
+<Filter ID="Filter:0:0" Model="BA575-630">
+<TransmittanceRange CutIn="575.0" CutInUnit="nm" CutOut="630.0" CutOutUnit="nm"/>
+<Dichroic ID="Dichroic:0:0" Model="DM570"/>
+<Dichroic ID="Dichroic:0:1" Model="DM405\488\543\635"/>
+<Image ID="Image:0" Name="Series 1">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:0" Interleaved="false" PhysicalSizeX="2.485" PhysicalSizeXUnit="µm" PhysicalSizeY="2.485" PhysicalSizeYUnit="µm" PhysicalSizeZ="5.0" PhysicalSizeZUnit="µm" SignificantBits="12" SizeC="1" SizeT="1" SizeX="512" SizeY="512" SizeZ="91" TimeIncrement="1.0" TimeIncrementUnit="s" Type="uint16">
+<Channel ExcitationWavelength="900.0" ExcitationWavelengthUnit="nm" ID="Channel:0:0" IlluminationType="Epifluorescence" Name="RXD4" SamplesPerPixel="1">
+<LightSourceSettings ID="LightSource:0:0" Wavelength="900.0" WavelengthUnit="nm"/>
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath>
+<DichroicRef ID="Dichroic:0:1"/>
+<EmissionFilterRef ID="Filter:0:0"/>
+<MetadataOnly/>
+<Plane DeltaT="0.0" DeltaTUnit="s" PositionZ="450000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="2.938" DeltaTUnit="s" PositionZ="445000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="1"/>
+<Plane DeltaT="5.86" DeltaTUnit="s" PositionZ="440000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="2"/>
+<Plane DeltaT="8.797" DeltaTUnit="s" PositionZ="435000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="3"/>
+<Plane DeltaT="11.735" DeltaTUnit="s" PositionZ="430000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="4"/>
+<Plane DeltaT="14.657" DeltaTUnit="s" PositionZ="425000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="5"/>
+<Plane DeltaT="17.594" DeltaTUnit="s" PositionZ="420000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="6"/>
+<Plane DeltaT="20.532" DeltaTUnit="s" PositionZ="415000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="7"/>
+<Plane DeltaT="23.469" DeltaTUnit="s" PositionZ="410000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="8"/>
+<Plane DeltaT="26.407" DeltaTUnit="s" PositionZ="405000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="9"/>
+<Plane DeltaT="29.344" DeltaTUnit="s" PositionZ="400000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="10"/>
+<Plane DeltaT="32.266" DeltaTUnit="s" PositionZ="395000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="11"/>
+<Plane DeltaT="35.203" DeltaTUnit="s" PositionZ="390000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="12"/>
+<Plane DeltaT="38.141" DeltaTUnit="s" PositionZ="385000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="13"/>
+<Plane DeltaT="41.078" DeltaTUnit="s" PositionZ="380000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="14"/>
+<Plane DeltaT="44.0" DeltaTUnit="s" PositionZ="375000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="15"/>
+<Plane DeltaT="46.938" DeltaTUnit="s" PositionZ="370000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="16"/>
+<Plane DeltaT="49.86" DeltaTUnit="s" PositionZ="365000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="17"/>
+<Plane DeltaT="52.813" DeltaTUnit="s" PositionZ="360000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="18"/>
+<Plane DeltaT="55.735" DeltaTUnit="s" PositionZ="355000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="19"/>
+<Plane DeltaT="58.672" DeltaTUnit="s" PositionZ="350000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="20"/>
+<Plane DeltaT="61.61" DeltaTUnit="s" PositionZ="345000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="21"/>
+<Plane DeltaT="64.547" DeltaTUnit="s" PositionZ="340000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="22"/>
+<Plane DeltaT="67.485" DeltaTUnit="s" PositionZ="335000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="23"/>
+<Plane DeltaT="70.422" DeltaTUnit="s" PositionZ="330000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="24"/>
+<Plane DeltaT="73.344" DeltaTUnit="s" PositionZ="325000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="25"/>
+<Plane DeltaT="76.266" DeltaTUnit="s" PositionZ="320000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="26"/>
+<Plane DeltaT="79.203" DeltaTUnit="s" PositionZ="315000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="27"/>
+<Plane DeltaT="82.141" DeltaTUnit="s" PositionZ="310000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="28"/>
+<Plane DeltaT="85.078" DeltaTUnit="s" PositionZ="305000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="29"/>
+<Plane DeltaT="88.0" DeltaTUnit="s" PositionZ="300000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="30"/>
+<Plane DeltaT="90.938" DeltaTUnit="s" PositionZ="295000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="31"/>
+<Plane DeltaT="93.875" DeltaTUnit="s" PositionZ="290000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="32"/>
+<Plane DeltaT="96.813" DeltaTUnit="s" PositionZ="285000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="33"/>
+<Plane DeltaT="99.735" DeltaTUnit="s" PositionZ="280000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="34"/>
+<Plane DeltaT="102.672" DeltaTUnit="s" PositionZ="275000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="35"/>
+<Plane DeltaT="105.61" DeltaTUnit="s" PositionZ="270000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="36"/>
+<Plane DeltaT="108.547" DeltaTUnit="s" PositionZ="265000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="37"/>
+<Plane DeltaT="111.485" DeltaTUnit="s" PositionZ="260000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="38"/>
+<Plane DeltaT="114.407" DeltaTUnit="s" PositionZ="255000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="39"/>
+<Plane DeltaT="117.344" DeltaTUnit="s" PositionZ="250000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="40"/>
+<Plane DeltaT="120.266" DeltaTUnit="s" PositionZ="245000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="41"/>
+<Plane DeltaT="123.203" DeltaTUnit="s" PositionZ="240000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="42"/>
+<Plane DeltaT="126.141" DeltaTUnit="s" PositionZ="235000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="43"/>
+<Plane DeltaT="129.063" DeltaTUnit="s" PositionZ="230000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="44"/>
+<Plane DeltaT="132.0" DeltaTUnit="s" PositionZ="225000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="45"/>
+<Plane DeltaT="134.938" DeltaTUnit="s" PositionZ="220000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="46"/>
+<Plane DeltaT="137.86" DeltaTUnit="s" PositionZ="215000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="47"/>
+<Plane DeltaT="140.797" DeltaTUnit="s" PositionZ="210000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="48"/>
+<Plane DeltaT="143.735" DeltaTUnit="s" PositionZ="205000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="49"/>
+<Plane DeltaT="146.672" DeltaTUnit="s" PositionZ="200000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="50"/>
+<Plane DeltaT="149.61" DeltaTUnit="s" PositionZ="195000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="51"/>
+<Plane DeltaT="152.532" DeltaTUnit="s" PositionZ="190000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="52"/>
+<Plane DeltaT="155.469" DeltaTUnit="s" PositionZ="185000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="53"/>
+<Plane DeltaT="158.407" DeltaTUnit="s" PositionZ="180000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="54"/>
+<Plane DeltaT="161.375" DeltaTUnit="s" PositionZ="175000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="55"/>
+<Plane DeltaT="164.313" DeltaTUnit="s" PositionZ="170000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="56"/>
+<Plane DeltaT="167.25" DeltaTUnit="s" PositionZ="165000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="57"/>
+<Plane DeltaT="170.172" DeltaTUnit="s" PositionZ="160000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="58"/>
+<Plane DeltaT="173.11" DeltaTUnit="s" PositionZ="155000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="59"/>
+<Plane DeltaT="176.047" DeltaTUnit="s" PositionZ="150000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="60"/>
+<Plane DeltaT="179.0" DeltaTUnit="s" PositionZ="145000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="61"/>
+<Plane DeltaT="181.922" DeltaTUnit="s" PositionZ="140000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="62"/>
+<Plane DeltaT="184.86" DeltaTUnit="s" PositionZ="135000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="63"/>
+<Plane DeltaT="187.797" DeltaTUnit="s" PositionZ="130000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="64"/>
+<Plane DeltaT="190.735" DeltaTUnit="s" PositionZ="125000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="65"/>
+<Plane DeltaT="193.672" DeltaTUnit="s" PositionZ="120000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="66"/>
+<Plane DeltaT="196.594" DeltaTUnit="s" PositionZ="115000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="67"/>
+<Plane DeltaT="199.532" DeltaTUnit="s" PositionZ="110000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="68"/>
+<Plane DeltaT="202.453" DeltaTUnit="s" PositionZ="105000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="69"/>
+<Plane DeltaT="205.391" DeltaTUnit="s" PositionZ="100000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="70"/>
+<Plane DeltaT="208.328" DeltaTUnit="s" PositionZ="95000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="71"/>
+<Plane DeltaT="211.266" DeltaTUnit="s" PositionZ="90000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="72"/>
+<Plane DeltaT="214.188" DeltaTUnit="s" PositionZ="85000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="73"/>
+<Plane DeltaT="217.125" DeltaTUnit="s" PositionZ="80000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="74"/>
+<Plane DeltaT="220.063" DeltaTUnit="s" PositionZ="75000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="75"/>
+<Plane DeltaT="222.985" DeltaTUnit="s" PositionZ="70000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="76"/>
+<Plane DeltaT="225.922" DeltaTUnit="s" PositionZ="65000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="77"/>
+<Plane DeltaT="228.86" DeltaTUnit="s" PositionZ="60000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="78"/>
+<Plane DeltaT="231.797" DeltaTUnit="s" PositionZ="55000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="79"/>
+<Plane DeltaT="234.735" DeltaTUnit="s" PositionZ="50000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="80"/>
+<Plane DeltaT="237.657" DeltaTUnit="s" PositionZ="45000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="81"/>
+<Plane DeltaT="240.594" DeltaTUnit="s" PositionZ="40000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="82"/>
+<Plane DeltaT="243.547" DeltaTUnit="s" PositionZ="35000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="83"/>
+<Plane DeltaT="246.469" DeltaTUnit="s" PositionZ="30000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="84"/>
+<Plane DeltaT="249.407" DeltaTUnit="s" PositionZ="25000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="85"/>
+<Plane DeltaT="252.328" DeltaTUnit="s" PositionZ="20000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="86"/>
+<Plane DeltaT="255.266" DeltaTUnit="s" PositionZ="15000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="87"/>
+<Plane DeltaT="258.203" DeltaTUnit="s" PositionZ="10000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="88"/>
+<Plane DeltaT="261.141" DeltaTUnit="s" PositionZ="5000.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="89"/>
+<Plane DeltaT="264.063" DeltaTUnit="s" PositionZ="0.0" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="90"/>
