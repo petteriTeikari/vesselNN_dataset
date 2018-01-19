@@ -15,6 +15,12 @@ The structure of the dataset is following:
 * At the moment there is only the denoised stacks (with [BM4D](http://www.cs.tut.fi/~foi/GCF-BM3D/) which will be accompanied by the raw Poisson noise corrupted stacks straight from the Olympus FV1000MPE multiphoton microscopy system.
 * At the moment in the main repository [(vesselNN)](https://github.com/petteriTeikari/vesselNN), there are no implementations of the dataset for commonly used frameworks such as TensorFlow, Theano and Caffe which we plan to add making further development easier.
 
+### Updated - January 2018
+
+* Added metadata
+
+missing from "santos2015_mixedSizelowContrastVessels.xml" and "santos2015_lowContrastVessels_metadata.xml" which are from the same original .oib acquisition. Settings are similar to "santos2015_tumor_metadata.xml"
+
 ## Reference
 
 * Teikari, P., Santos, M., Poon, C. and Hynynen, K. (2016) Deep Learning Convolutional Networks for Multiphoton Microscopy Vasculature Segmentation. [arXiv:1606.02382](http://arxiv.org/abs/1606.02382).
